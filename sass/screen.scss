@@ -5,3 +5,16 @@
 
 @import "compass/reset";
 @import "bourbon";
+
+body {
+	width: 960px;
+	margin: auto;
+}
+
+.image-captions {
+
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin: 10px;
+}
