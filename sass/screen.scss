@@ -5,6 +5,7 @@
 
 @import "compass/reset";
 @import "bourbon";
+<<<<<<< HEAD
 html {
 	//background-color: white;
 	background-position: center center;
@@ -30,4 +31,18 @@ header {
 		float: left;
 		margin: 100px  0 0 50px;
 	}
+=======
+
+body {
+	width: 960px;
+	margin: auto;
+}
+
+.image-captions {
+
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin: 10px;
+>>>>>>> 85ad54ec64e87b04262a762ce297f0ecf5a21e95
 }
