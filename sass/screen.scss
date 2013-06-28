@@ -5,3 +5,29 @@
 
 @import "compass/reset";
 @import "bourbon";
+html {
+	//background-color: white;
+	background-position: center center;
+	background-attachment: fixed;
+	background-image: url(../images/heron-in-water.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+body {
+	//background: #fffffe;
+	width: 960px;
+	margin: auto;
+}
+header {
+	@include clearfix;
+	background: rgba(#fffffe, 0.5);
+	width: 100%;
+	img.logo {
+		float: left;
+	}
+	h1 {
+		font-size: 3.9em;
+		float: left;
+		margin: 100px  0 0 50px;
+	}
+}

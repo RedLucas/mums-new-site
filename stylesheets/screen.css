@@ -57,3 +57,37 @@ a img {
 /* line 116, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
+
+/* line 8, ../sass/screen.scss */
+html {
+  background-position: center center;
+  background-attachment: fixed;
+  background-image: url(../images/heron-in-water.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/* line 16, ../sass/screen.scss */
+body {
+  width: 960px;
+  margin: auto; }
+
+/* line 21, ../sass/screen.scss */
+header {
+  *zoom: 1;
+  background: rgba(255, 255, 254, 0.5);
+  width: 100%; }
+  /* line 18, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  header:before, header:after {
+    content: " ";
+    display: table; }
+  /* line 23, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  header:after {
+    clear: both; }
+  /* line 25, ../sass/screen.scss */
+  header img.logo {
+    float: left; }
+  /* line 28, ../sass/screen.scss */
+  header h1 {
+    font-size: 3.9em;
+    float: left;
+    margin: 100px  0 0 50px; }
