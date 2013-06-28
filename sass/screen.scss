@@ -5,7 +5,10 @@
 
 @import "compass/reset";
 @import "bourbon";
-<<<<<<< HEAD
+@import "font-awesome/font-awesome.scss";
+$bg: rgba(#e9f2f0, 0.65);
+$dark-green: rgba(#2b4017, 1);
+$light-green: #3c591e;
 html {
 	//background-color: white;
 	background-position: center center;
@@ -21,21 +24,99 @@ body {
 }
 header {
 	@include clearfix;
-	background: rgba(#fffffe, 0.5);
+	background: $bg;
 	width: 100%;
 	img.logo {
 		float: left;
+		height: 200px;
 	}
 	h1 {
 		font-size: 3.9em;
 		float: left;
 		margin: 100px  0 0 50px;
 	}
-=======
+}
+section.twitter-feed {
+	background: $bg;
+	padding: 20px 0;
+	border-top: solid 1px grey;
+	border-bottom: solid 1px grey;
+	p {
+		font-size: 1.6em;
+		text-align: center;
+		color: $light-green;
+	}
+}
+nav {
+	background: $bg;
+	ul {
+		text-align: center;
+		padding: 20px;
+	}
+	li {
+		display: inline-block;
+		padding: 0 35px;
 
-body {
-	width: 960px;
-	margin: auto;
+		a {
+			padding: 20px;
+			font-size: 1.7em;
+			text-decoration: none;
+			color: $dark-green;
+		}
+		a:hover {
+			color: $light-green;
+			text-decoration: underline;
+		}
+		a:focus {
+			color: $light-green;
+			text-decoration: underline;
+		}
+		a:active {
+			color: $light-green;
+			text-decoration: underline;
+		}
+	}
+}
+section.welcome {
+	@include clearfix;
+	div.left-bar {
+		width: 180px;
+		height: 350px;
+		background: $bg;
+		float: left;
+	}
+	div.center-seethru {
+		height: 350px;
+		width: 600px;
+		float: left;
+		@include box-sizing(border-box);
+		border-width: 44px;
+		@include border-image(url(../images/corner.png) 44 repeat);
+		border-color: $bg;
+		border-style: solid;
+		h2 {
+			color: #9fbfb6;
+			font-size: 3.0em;
+			text-align: center;
+			//float: right;
+			margin-top: 50%;
+		}
+		div.rounded-corner {
+			/*@include border-radius(30px);
+			border-width: 5px;
+			border-color: $bg;
+			border-style: solid;*/
+			height: 100%;
+			width: 100%;
+			@include box-sizing(border-box);
+		}
+	}
+	div.right-bar {
+		width: 180px;
+		height: 350px;
+		background: $bg;
+		float: right;
+	}
 }
 
 .image-captions {
@@ -44,5 +125,5 @@ body {
 	width: 30%;
 	text-align: center;
 	margin: 10px;
->>>>>>> 85ad54ec64e87b04262a762ce297f0ecf5a21e95
+
 }
