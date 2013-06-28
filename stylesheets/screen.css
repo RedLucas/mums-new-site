@@ -1917,7 +1917,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 .icon-renren:before {
   content: "\f18b"; }
 
-/* line 12, ../sass/screen.scss */
+/* line 13, ../sass/screen.scss */
 html {
   background-position: center center;
   background-attachment: fixed;
@@ -1925,12 +1925,12 @@ html {
   background-size: cover;
   background-repeat: no-repeat; }
 
-/* line 20, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 body {
   width: 960px;
   margin: auto; }
 
-/* line 25, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
 header {
   *zoom: 1;
   background: rgba(233, 242, 240, 0.65);
@@ -1942,59 +1942,60 @@ header {
   /* line 23, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   header:after {
     clear: both; }
-  /* line 29, ../sass/screen.scss */
+  /* line 30, ../sass/screen.scss */
   header img.logo {
     float: left;
     height: 200px; }
-  /* line 33, ../sass/screen.scss */
+  /* line 34, ../sass/screen.scss */
   header h1 {
     font-size: 3.9em;
     float: left;
-    margin: 100px  0 0 50px; }
+    margin: 100px  0 0 50px;
+    color: #4f5958; }
 
-/* line 39, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 section.twitter-feed {
   background: rgba(233, 242, 240, 0.65);
   padding: 20px 0;
   border-top: solid 1px grey;
   border-bottom: solid 1px grey; }
-  /* line 44, ../sass/screen.scss */
+  /* line 47, ../sass/screen.scss */
   section.twitter-feed p {
     font-size: 1.6em;
     text-align: center;
     color: #3c591e; }
 
-/* line 50, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 nav {
   background: rgba(233, 242, 240, 0.65); }
-  /* line 52, ../sass/screen.scss */
+  /* line 55, ../sass/screen.scss */
   nav ul {
     text-align: center;
     padding: 20px; }
-  /* line 56, ../sass/screen.scss */
+  /* line 59, ../sass/screen.scss */
   nav li {
     display: inline-block;
     padding: 0 35px; }
-    /* line 60, ../sass/screen.scss */
+    /* line 63, ../sass/screen.scss */
     nav li a {
       padding: 20px;
       font-size: 1.7em;
       text-decoration: none;
       color: #2b4017; }
-    /* line 66, ../sass/screen.scss */
+    /* line 69, ../sass/screen.scss */
     nav li a:hover {
       color: #3c591e;
       text-decoration: underline; }
-    /* line 70, ../sass/screen.scss */
+    /* line 73, ../sass/screen.scss */
     nav li a:focus {
       color: #3c591e;
       text-decoration: underline; }
-    /* line 74, ../sass/screen.scss */
+    /* line 77, ../sass/screen.scss */
     nav li a:active {
       color: #3c591e;
       text-decoration: underline; }
 
-/* line 80, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 section.welcome {
   *zoom: 1; }
   /* line 18, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
@@ -2004,13 +2005,13 @@ section.welcome {
   /* line 23, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   section.welcome:after {
     clear: both; }
-  /* line 82, ../sass/screen.scss */
+  /* line 85, ../sass/screen.scss */
   section.welcome div.left-bar {
     width: 180px;
     height: 350px;
     background: rgba(233, 242, 240, 0.65);
     float: left; }
-  /* line 88, ../sass/screen.scss */
+  /* line 91, ../sass/screen.scss */
   section.welcome div.center-seethru {
     height: 350px;
     width: 600px;
@@ -2025,13 +2026,13 @@ section.welcome {
     border-image: url(../images/corner.png) 44 repeat;
     border-color: rgba(233, 242, 240, 0.65);
     border-style: solid; }
-    /* line 97, ../sass/screen.scss */
+    /* line 100, ../sass/screen.scss */
     section.welcome div.center-seethru h2 {
       color: #9fbfb6;
       font-size: 3.0em;
       text-align: center;
       margin-top: 50%; }
-    /* line 104, ../sass/screen.scss */
+    /* line 107, ../sass/screen.scss */
     section.welcome div.center-seethru div.rounded-corner {
       /*@include border-radius(30px);
       border-width: 5px;
@@ -2042,14 +2043,14 @@ section.welcome {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box; }
-  /* line 114, ../sass/screen.scss */
+  /* line 117, ../sass/screen.scss */
   section.welcome div.right-bar {
     width: 180px;
     height: 350px;
     background: rgba(233, 242, 240, 0.65);
     float: right; }
 
-/* line 122, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 .image-captions {
   float: left;
   width: 30%;
