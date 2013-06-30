@@ -11,15 +11,17 @@ $dark-grey: #4f5958;
 $dark-green: rgba(#2b4017, 1);
 $light-green: #3c591e;
 html {
+}
+body {
 	//background-color: white;
 	background-position: center center;
 	background-attachment: fixed;
 	background-image: url(../images/heron-in-water.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+
 }
-body {
-	//background: #fffffe;
+#container {
 	width: 960px;
 	margin: auto;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

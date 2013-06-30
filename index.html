@@ -1,23 +1,32 @@
 <!doctype html>
-<html>
+<html class="background">
 <head>
 <meta charset="UTF-8">
 <title>Untitled Document</title>
 <link href="stylesheets/screen.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script type="text/javascript" src="./scripts/foggy.min.js"></script>
+   <script type="text/javascript"
+        $('.blur').foggy({
+            cssFilterSupport: true
+            blurRadius: 2;
+        });
+      ></script>
 
 </head>
 
 <body>
-
-	<header>
+<div id="container">
+	<header class="blur">
         <img class="logo" src="./images/butterfly.png" alt="Samm" />
         <h1>Loven Life with Lisa</h1>
     </header>
-    <section class="twitter-feed">
+    <!--<section class="twitter-feed">
     	<!-- Twitter feed -->
-        <p><i class="icon-twitter" ></i> My son is such an awesome web designer <em> - Lisa</em></p> 
-    </section>
-    <nav>
+     <!--  <p><i class="icon-twitter" ></i> My son is such an awesome web designer <em> - Lisa</em></p> 
+    </section>-->
+    <nav class="blur">
     	<ul>
         	<li><a href="#" >Home</a></li>
             <li><a href="#" >About</a></li>
@@ -27,7 +36,7 @@
         </ul>
     </nav>
 
-    <section class="welcome">
+    <section class="welcome ">
         <div class="left-bar"></div>
         <div class="center-seethru">
             <div class="rounded-corner">
@@ -61,5 +70,6 @@
     <footer>
     
     </footer>
-</body>
+</div>
+   </body>
 </html>
