@@ -225,3 +225,27 @@ td, th {
 .google-map {
 	//float: right;
 }
+.about-icon {
+	font-size: 140px;
+	color: $dark-green;
+}
+.about-header {
+	background: $bg;
+	font-size: 30px;
+	text-align: center;
+	padding: 20px;
+	margin: 15px 0;
+	color: $dark-green;
+}
+.info-boxes {
+	background: $bg;
+	margin: 15px 0;
+	@include clearfix;
+	padding: 20px;
+	h3 {
+		font-size: 20px;
+	}
+	p {
+		margin: 20px 0 0 0;
+	}
+}
