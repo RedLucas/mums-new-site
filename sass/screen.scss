@@ -54,17 +54,20 @@ section.twitter-feed {
 	}
 }
 nav {
+	border-top: solid 1px grey;
+	border-bottom: solid 1px grey;
 	background: $bg;
+	clear: both;
 	ul {
 		text-align: center;
 		padding: 20px;
 	}
 	li {
 		display: inline-block;
-		padding: 0 35px;
+		padding: 0 20px;
 
 		a {
-			padding: 20px;
+			padding: 15px;
 			font-size: 24px;
 			text-decoration: none;
 			color: $dark-green;
@@ -116,7 +119,7 @@ section.welcome {
 			width: 100%;
 			@include box-sizing(border-box);
 		}
-	}
+	} 
 	div.right-bar {
 		width: 180px;
 		height: 350px;
@@ -124,12 +127,101 @@ section.welcome {
 		float: right;
 	}
 }
-
+main {
+	@include clearfix;
+}
+article.mums-portrait {
+	background: $bg;
+	padding: 20px 50px;
+}
+.portrait {
+	margin: auto;
+	background: darken($bg, 5%);
+	box-shadow: inset 0 0 5px black;
+	@include clearfix;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: grey;
+	width: 560px;
+	padding: 20px;
+	img {
+		float: left;
+	}
+	ul {
+		float: right;
+		list-style-type: circle;
+		margin-left: 20px;
+		width: 360px;
+		li {
+			padding: 20px 0;
+		}
+		li:first-child{
+			padding: 0 0 20px;
+		}
+	}
+}
 .image-captions {
-
+	height: 300px;
 	float: left;
-	width: 30%;
+	width: 260px;
 	text-align: center;
-	margin: 10px;
+	margin: 30px 10px;
+	padding: 20px;
+	background: $bg;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: grey;
+	.icon {
+		font-size: 160px;
+		display: block;
+		padding-bottom: 30px;
+		color: $light-green;
+	}
+	p {
+		margin: 10px;
+	}
 
+}
+footer {
+	padding: 10px;
+	color: #e9f2f0;
+	p {
+		text-align: center;
+	}
+}
+.podcast-header {
+	background: $bg;
+	padding: 20px 150px 20px 20px;
+	text-align: right;
+	font-size: 20px;
+}
+.location-header {
+	background: $bg;
+	padding: 20px 20px 20px 20px;
+	font-size: 20px;
+	text-align: center;
+	float: left;
+	width: 420px;
+}
+ol.location {
+	clear: left;
+	float: left;
+	background: $bg;
+	width: 420px;
+	padding: 20px 20px 20px 20px;
+	list-style-type: decimal;
+	li {
+		padding: 10px;
+	}
+}
+table {
+	border: 1px transparent;
+	float: right;
+}
+td, th {
+	padding: 20px;
+	background: $bg;
+}
+.google-map {
+	//float: right;
 }
