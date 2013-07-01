@@ -32,7 +32,8 @@ header {
 	width: 100%;
 	img.logo {
 		float: left;
-		height: 200px;
+		margin-left: 20px;
+		margin-bottom: 10px;
 	}
 	h1 {
 		font-size: 3.9em;
@@ -176,6 +177,10 @@ article.mums-portrait {
 		display: block;
 		padding-bottom: 30px;
 		color: $light-green;
+		text-shadow:  black 1px 1px 5px;
+	}
+	h3 {
+		font-weight: 700;
 	}
 	p {
 		margin: 10px;
@@ -196,17 +201,21 @@ footer {
 	font-size: 20px;
 }
 .location-header {
-	background: $bg;
 	padding: 20px 20px 20px 20px;
 	font-size: 20px;
-	text-align: center;
 	float: left;
 	width: 420px;
 }
-ol.location {
+.directions-header {
+	float: left;
+	clear: left;
+	width: 420px;
+	padding: 20px 20px 20px 20px;
+	font-size: 16px;
+}
+.location ol {
 	clear: left;
 	float: left;
-	background: $bg;
 	width: 420px;
 	padding: 20px 20px 20px 20px;
 	list-style-type: decimal;
@@ -224,6 +233,7 @@ td, th {
 }
 .google-map {
 	//float: right;
+<<<<<<< HEAD
 }
 .about-icon {
 	font-size: 140px;
@@ -248,4 +258,11 @@ td, th {
 	p {
 		margin: 20px 0 0 0;
 	}
+=======
+	margin-top: 40px;
+}
+main.location {
+	padding-left: 10px;
+	background: $bg;
+>>>>>>> f9d4cc12811f1a63e6aece37c8927a861a5f2531
 }
