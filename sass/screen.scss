@@ -30,6 +30,7 @@ header {
 	@include clearfix;
 	background: $bg;
 	width: 100%;
+
 	img.logo {
 		float: left;
 		margin-left: 20px;
@@ -43,22 +44,12 @@ header {
 
 	}
 }
-section.twitter-feed {
-	background: $bg;
-	padding: 20px 0;
-	border-top: solid 1px grey;
-	border-bottom: solid 1px grey;
-	p {
-		font-size: 1.6em;
-		text-align: center;
-		color: $light-green;
-	}
-}
 nav {
 	border-top: solid 1px grey;
 	border-bottom: solid 1px grey;
 	background: $bg;
 	clear: both;
+
 	ul {
 		text-align: center;
 		padding: 20px;
