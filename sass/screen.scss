@@ -217,10 +217,15 @@ footer {
 table {
 	border: 1px transparent;
 	float: right;
+	
 }
 td, th {
 	padding: 20px;
 	background: $bg;
+	border: $dark-grey solid 1px;
+}
+th {
+	font-size: 20px;
 }
 .google-map {
 	//float: right;
@@ -262,6 +267,7 @@ main.location {
 	padding: 20px;
 	li {
 		padding: 5px;
+		font-size: 24px;
 	}
 
 }
